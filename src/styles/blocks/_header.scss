@@ -1,0 +1,25 @@
+.header {
+  padding-top: 40px;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+  }
+
+  &__link {
+    line-height: 130%;
+  }
+
+  &__list-btn {
+    padding: 20px 30px;
+    background-color: $black;
+    color: $white;
+    margin-left: 35px;
+  }
+}
