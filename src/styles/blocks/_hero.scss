@@ -1,0 +1,71 @@
+.hero {
+  &__wrapper {
+    background-color: $light-green;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 45vw;
+    height: 100vh;
+    z-index: -1;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 46vw;
+    height: 100vh;
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  &__right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+
+  &__text {
+    max-width: 528px;
+    margin: 0 0 45px 0;
+  }
+
+  &__f {
+    width: 528px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__link {
+    margin-bottom: 74px;
+  }
+
+  &__advantages {
+    display: flex;
+    gap: 100px;
+  }
+
+  &__value {
+    color: $green;
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 140%;
+    margin: 0 0 10px 0;
+  }
+
+  &__description {
+    margin: 0;
+  }
+}
+.main-title {
+  font-weight: 800;
+  font-size: 67px;
+  max-width: 715px;
+  line-height: 120%;
+  margin: 190px 0 35px 0;
+}
+.accent {
+  font-size: 80px;
+  color: $green;
+}
