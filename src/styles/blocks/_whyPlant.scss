@@ -1,0 +1,23 @@
+.whyPlant {
+    margin-top: 130px;
+  &_title {
+    max-width: 517px;
+  }
+
+  &__inner {
+    display: grid;
+    grid-template-columns: 584px 436px;
+    gap: 60px;
+  }
+
+  &__right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  &__text {
+    margin: 40px 0 30px 0;
+  }
+}

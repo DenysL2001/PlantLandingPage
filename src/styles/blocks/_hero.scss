@@ -1,5 +1,4 @@
 .hero {
-    // display: flex;
   &__q {
     position: absolute;
     top: 0;
@@ -7,6 +6,7 @@
     width: 46vw;
     height: 100vh;
     z-index: -1;
+
   }
   &__img-wrapper {
     background-color: $light-green;
@@ -18,8 +18,8 @@
   &__img {
     position: absolute;
     top: 0;
-    left: 12vw;
-    object-fit: cover;
+    left: 10vw;
+    object-fit:cover;
   }
 
   &__right-side {
@@ -42,7 +42,7 @@
   }
 
   &__link {
-    margin-bottom: 74px;
+    margin-bottom: 100px;
   }
 
   &__advantages {

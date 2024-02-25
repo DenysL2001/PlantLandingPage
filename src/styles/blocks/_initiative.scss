@@ -1,0 +1,36 @@
+.initiative {
+  margin-top: 130px;
+  &__inner {
+    display: grid;
+    grid-template-columns: 492px 528px;
+    gap: 60px;
+  }
+
+  &__list {
+    padding: 0;
+  }
+
+  &__list-item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__bg-item {
+    width: 40px;
+    height: 40px;
+    background-color: $green;
+    margin-right: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  &__item-text{
+    max-width: 398px;
+  }
+}
+.icon{
+    width: 16px;
+    height: 11px;
+}
